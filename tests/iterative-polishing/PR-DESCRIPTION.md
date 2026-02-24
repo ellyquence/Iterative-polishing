@@ -35,6 +35,6 @@ Exceeding thresholds escalates to `brainstorming` or `writing-plans`.
 
 ## Files changed
 
-- `skills/iterative-polishing/SKILL.md` (new — 498 words)
+- `skills/iterative-polishing/SKILL.md` (new — 426 words body, 527 total with frontmatter)
 
 https://claude.ai/code/session_01AxgiCX8LHp5ACaoxdDmJXp

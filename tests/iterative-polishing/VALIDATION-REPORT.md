@@ -63,23 +63,20 @@ All five disguised large changes were correctly escalated.
 ---
 name: iterative-polishing
 description: "Use when making small, targeted changes to working software — config tweaks, message changes, dead code removal, style adjustments where the full brainstorming-plan-execute pipeline is disproportionate. Use when the change touches 3 or fewer files, changes fewer than 50 lines, adds no dependencies or API surface, needs no new tests. Use when someone says fix, tweak, adjust, update, or remove for a single contained change."
-when_to_use:
-  - small change to working code
-  - config value tweak
-  - error message improvement
-  - dead code removal
-  - style or CSS adjustment
-  - rename, fix typo, adjust log level
-  - single contained refinement
+when_to_use: "Small change to working code. Config value tweak. Error message improvement. Dead code removal. Style or CSS adjustment. Rename, fix typo, adjust log level. Single contained refinement."
 version: 1.0.0
 languages: all
 ---
 ```
 
-**Word count: 498** (under 500 ceiling)
+**Word count: 426 body / 527 total** (body well under 500 ceiling)
 
 **Key features:**
-- 5 mandatory steps with measurable thresholds
+- Announcement instruction per contribution guide template
+- `when_to_use` as string (matches guide frontmatter format)
+- "When to use" section with symptom-focused triggers
+- "Core process" section with 5 mandatory steps and measurable thresholds
+- Section order matches guide template: When to use → Core process → Escalation triggers → Anti-patterns → Rationalization counters
 - 6 hard escalation gates, 3 soft gates
 - 8 rationalization counters mapped from RED phase observations
 - 5 anti-patterns with concrete descriptions
